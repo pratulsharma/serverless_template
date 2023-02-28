@@ -1,17 +1,8 @@
-# Codingly.io: Base Serverless Framework Template
+# serverless_templates
+Chapter 1
 
-https://codingly.io
 
-## What's included
-* Folder structure used consistently across our projects.
-* [serverless-pseudo-parameters plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Allows you to take advantage of CloudFormation Pseudo Parameters.
-* [serverless-bundle plugin](https://www.npmjs.com/package/serverless-pseudo-parameters): Bundler based on the serverless-webpack plugin - requires zero configuration and fully compatible with ES6/ES7 features.
-
-## Getting started
-```
-sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
-cd YOUR_PROJECT_NAME
-npm install
-```
-
-You are ready to go!
+ 1) added dynamodb 
+2) added middy 
+3) added env variables so that we can use generic names of the resources in lambda functions
+4) used !Ref and !GetAtt to make the serverless file to be as generic as possible
